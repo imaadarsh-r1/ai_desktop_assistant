@@ -14,19 +14,19 @@ Used LLM is **Phi-2.Q4_K_M.gguf** (lightweight local model) and `langchain`.
  we can implement this task by simple mapping (direct mapping) so when we use this kind of implementation there is no need for LLMs, here the system directly look for some keywords like "increase" and "brightness", based on that keyword it performs the task. The drawback of this implementation is that the model become very constraint for example: To increasing the brightness the only one command is " Please increase the brightness" so the model(system) looks for the keyword "increase and brightness" but whenever the user input is like  "can you make the screen a little bit brighter", this system fails beacuse there is no keywords.
  ## SO LLM IS USED HERE TO UNDERSTAND THE NATURAL LANGUAGE AND PERFORM TAKS ACCORDINGLY.
 
-## 🧠 Features
+##  Features
 
-- 🔌 **Runs fully offline** – No internet required
-- 🗣️ **LLM-based intent classification**
-- 📸 Screenshot functionality
-- 💡 Brightness control (macOS-only using AppleScript) #since i m using mac (if you are using windows try its command)
-- 🧠 Uses [Phi-2](https://huggingface.co/microsoft/phi-2) model via `llama-cpp-python`
+-  **Runs fully offline** – No internet required
+-  **LLM-based intent classification**
+-  Screenshot functionality
+-  Brightness control (macOS-only using AppleScript) #since i m using mac (if you are using windows try its command)
+-  Uses [Phi-2](https://huggingface.co/microsoft/phi-2) model via `llama-cpp-python`
 
 ---
 
 ## WITHOUT LLM
-![Screenshot of App](/Users/adarshravindran/ai_desktop_assistant/images/Screenshot 2025-06-19 at 11.36.02 AM.png)
+![Without LLM](images/without_llm.png)
 
 ## WITH LLM
-![Screenshot of App](/Users/adarshravindran/ai_desktop_assistant/images/Screenshot 2025-06-19 at 11.35.32 AM.png)
+![With LLM](images/with_llm.png)
 
