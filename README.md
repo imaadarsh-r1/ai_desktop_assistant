@@ -24,9 +24,9 @@ Used LLM is **Phi-2.Q4_K_M.gguf** (lightweight local model) and `langchain`.
 
 ---
 
-## WITHOUT LLM
+## WITHOUT LLM (please look the last few lines)
 ![Without LLM](images/without_llm.png)
 
-## WITH LLM
+## WITH LLM (please look the last few lines)
 ![With LLM](images/with_llm.png)
 
